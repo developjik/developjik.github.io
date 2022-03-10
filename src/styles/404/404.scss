@@ -1,0 +1,30 @@
+.bg {
+  background: url('bg.png'), #232325;
+  width: 100vw;
+  height: calc(100vh - 122px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+
+  h1 {
+    font-size: 80px;
+  }
+  h3 {
+    font-size: 40px;
+    margin: 3vh 0;
+  }
+
+  a {
+    padding: 2.5vh 2.5vw;
+    background: #fff;
+    border-radius: 1.5em;
+    font-weight: 700;
+  }
+  a:hover {
+    background: #000;
+    color: #fff;
+  }
+}

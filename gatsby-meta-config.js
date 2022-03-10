@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `developjik's Dev Blog`,
+  description: `developjik's Dev Blog`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://github.com/developjik`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,16 +11,16 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `정인권`,
     bio: {
       role: `개발자`,
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      github: `https://github.com/developjik`,
+      linkedIn: `https://www.linkedin.com/in/%EC%9D%B8%EA%B6%8C-%EC%A0%95-149303234/`,
+      email: `developjik@gmail.com`,
     },
   },
 
@@ -43,12 +43,31 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '2015.03 ~ 2016.08',
+        activity: '숭실대 재학',
+      },
+      {
+        date: '2017.02 ~ 2019.05',
+        activity: '(주) 레드스톤 시스템 보충역 근무',
+      },
+      {
+        date: '2019.09 ~ 2021.12',
+        activity: '숭실대 재학(졸업유예 중)',
+      },
+      {
+        date: '2022.01 ~ 2022.03',
+        activity: '원티드 x 임팩트캠퍼스 프리온보딩코스_프론트엔드',
+        links: {
+          github: 'https://github.com/PreOnBoarding-Team17',
+        },
+      },
+      {
+        date: '2022.03 ~',
+        activity: '개발 블로그 개발 및 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/developjik',
+          // demo: 'https://www.zoomkoding.com',
         },
       },
     ],
