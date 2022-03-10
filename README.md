@@ -1,5 +1,5 @@
 <h1 align="center">
-  Zoomkoding Gatsby Blog
+  developjik Dev Blog
 </h1>
 
 <p align="center">
