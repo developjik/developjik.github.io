@@ -14,7 +14,12 @@ module.exports = {
     name: `정인권`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: [
+        '새로운 것을 두려워하지 않는',
+        '끊임없이 고민하는',
+        '함께 소통하며 성장하는',
+        '평생 학습하고 도전하는',
+      ],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
@@ -65,7 +70,7 @@ module.exports = {
         date: '2022.03 ~',
         activity: '개발 블로그 개발 및 운영',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
+          demo: 'https://developjik.github.io/',
           github: 'https://github.com/developjik',
           // demo: 'https://www.zoomkoding.com',
         },

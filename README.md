@@ -186,10 +186,10 @@ index.md 파일의 상단에는 아래와 같이 emoji, title, date, author, tag
 
 ```
 ---
-emoji: 🧢
+emoji: 😀
 title: Getting Started
-date: '2021-03-22 23:00:00'
-author: 줌코딩
+date: '2022-03-01 00:00:00'
+author: developjik
 tags: tutorial
 categories: tutorial
 ---
@@ -209,10 +209,3 @@ categories: tutorial
 
     ```toc
     ```
-
-### 💡 버그 리포트 & 문의
-
-궁금하신 점이 있으시다면 [이슈](https://github.com/zoomKoding/zoomkoding-gatsby-blog/issues/new)로 남겨주시면 최대한 빠르게 답변 드리도록 하겠습니다!🙋‍♂️
-
-> 🤔 혹시 특정 기능이 없어서 테마 사용을 망설이시거나 제안하고 싶으신 기능이 있으시다면,  
-> 👉 [여기](https://github.com/zoomKoding/zoomkoding-gatsby-blog/issues/40)에 댓글 남겨주세요! 적극적으로 반영하겠습니다 :)
