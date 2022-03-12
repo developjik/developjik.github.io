@@ -1,10 +1,10 @@
 ---
 emoji: 🎨
-title: CSS BEM 방식
-date: '2022-03-22 14:00:00'
+title: Css BEM 방식
+date: '2022-01-22 00:00:00'
 author: developjik
-tags: Css
-categories: Css
+tags: css
+categories: css
 ---
 
 ## BEM의 기본 구조

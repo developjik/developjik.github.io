@@ -1,10 +1,10 @@
 ---
 emoji: 👨‍💻
-title: 프론트엔드 개발자 필독서
-date: '2022-03-22 16:00:00'
+title: Frontend Developer 필독서
+date: '2022-01-15 00:00:00'
 author: developjik
-tags: Developer
-categories: Developer
+tags: developer
+categories: developer
 ---
 
 ## 1. 자바스크립트 완벽 가이드
