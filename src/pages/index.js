@@ -12,7 +12,8 @@ function HomePage({ data }) {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => new Post(node));
   posts.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
   const { author, language } = data.site.siteMetadata;
-  const userMadeCategories = getUniqueCategories(posts).sort();
+  const userMadeCategories = getUniqueCategories(posts);
+  userMadeCategories.sort();
   const categories = ['All', ...userMadeCategories];
   const featuredTabIndex = categories.findIndex((category) => category === 'featured');
   const [tabIndex, setTabIndex] = useState(featuredTabIndex === -1 ? 0 : featuredTabIndex);
