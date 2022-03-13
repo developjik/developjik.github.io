@@ -9,7 +9,7 @@ categories: blog
 
 ## 👋 나만의 blog 만들기
 
-1. [gatsby 테마로 github blog 만들기](https://www.youtube.com/)
+1. [gatsby 테마로 github blog 만들기](https://developjik.github.io/gatsby-theme-github-blog/)
 2. [netlify로 zoomkoding-gatsby-blog 만들기](https://app.netlify.com/start/deploy?repository=https://github.com/zoomkoding/zoomkoding-gatsby-blog)
 
 <br/>
