@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-category-template-js",
     "path": "/posts/developer",
-    "result": {"pageContext":{"currentCategory":"developer","categories":["All","git","css","developer","blog"],"edges":[{"node":{"id":"4b3fc4a7-b9c0-531b-89c4-905eb6336397","excerpt":"1. 자바스크립트 완벽 가이드  2. 프론트엔드 개발자를 위한 자바스크립트 프로그래밍  3. 모던 자바스크립트 Deep Dive  1. 자바스크립트 완벽 가이드 2. 프론트엔드 개발자를 위한 자바스크립트 프로그래밍 3. 모던 자바스크립트 Deep Dive","fields":{"slug":"/frontend-developer-must-read/"},"frontmatter":{"categories":"developer","title":"Frontend Developer 필독서","date":"January 15, 2022"}},"next":{"fields":{"slug":"/blog-setting-and-writing/"}},"previous":{"fields":{"slug":"/css-bem-method/"}}}]}},
+    "result": {"pageContext":{"currentCategory":"developer","categories":["All","css","git","developer","blog"],"edges":[{"node":{"id":"4b3fc4a7-b9c0-531b-89c4-905eb6336397","excerpt":"1. 자바스크립트 완벽 가이드  2. 프론트엔드 개발자를 위한 자바스크립트 프로그래밍  3. 모던 자바스크립트 Deep Dive  1. 자바스크립트 완벽 가이드 2. 프론트엔드 개발자를 위한 자바스크립트 프로그래밍 3. 모던 자바스크립트 Deep Dive","fields":{"slug":"/frontend-developer-must-read/"},"frontmatter":{"categories":"developer","title":"Frontend Developer 필독서","date":"January 15, 2022"}},"next":{"fields":{"slug":"/blog-setting-and-writing/"}},"previous":{"fields":{"slug":"/css-bem-method/"}}}]}},
     "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
