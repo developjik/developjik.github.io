@@ -363,7 +363,7 @@ export default Button;
 
 Sass 를 사용 할 때에는 `lighten()`또는 `darken()`과 같은 유틸 함수를 사용하여 색상에 변화를 줄 수 있다.
 
-CSS in JS 에서도 비슷한 유틸 함수를 사용하고 싶을 때 polished를 사용한다.
+CSS in JS 에서도 비슷한 유틸 함수를 사용하고 싶을 때 `polished`를 사용한다.
 
 ```shell
 yarn add polished
