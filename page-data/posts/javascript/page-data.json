@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/javascript",
+    "result": {"pageContext":{"currentCategory":"javascript","categories":["All","javascript","css","git","developer","blog"],"edges":[{"node":{"id":"ecffa529-f096-5951-990d-4ace75f51e35","excerpt":"콜백 함수란? 함수의 매개변수가 함수일 때, 매개변수로 받은 함수를 콜백함수르고 부른다. 고차 함수(Higher Order Function)란? 매개변수를 함수로 받은 함수. 즉, 외부에서 콜백함수를 전달받은 함수 고차 컴포넌트 (Higher Order Component(HOC))란? 컴포넌트를 매개변수로받아서, 컴포넌트를 반환하는 컴포넌트 일급함수란? 함수를 다른 변수와 동일하게 다루는 언어는 일급 함수를 가졌다고 표현합니다. 예를 들어, 일급 함수를 가진 언어에서는 함수를 다른 함수에 인수로 제공하거나, 함수가 함수를 반환할 수 있으며, 변수에도 할당할 수 있습니다. 일급함수의 특징 함수를 변수에 할당 가능 함수를 또 다른 함수 인자로 전달 가능 함수의 반환값으로 함수 전달 가능 함수형 프로그래밍 특징 중의 하나가 바로 일급함수 입니다. 콜백함수 사용하기 콜백함수라고 해서 꼭 비동기 동작에 쓰이는 것이 아닙니다. 콜백 함수란? 고차 함수(Higher Order Function)…","fields":{"slug":"/call-back-function/"},"frontmatter":{"categories":"javascript","title":"콜백 함수","date":"March 12, 2022"}},"next":{"fields":{"slug":"/styled-components-summary/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
