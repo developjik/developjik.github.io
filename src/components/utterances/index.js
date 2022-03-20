@@ -6,7 +6,7 @@ const branch = 'master';
 function Utterances({ repo, path }) {
   const rootElm = createRef();
   const isUtterancesLoaded = useRef(false);
-
+  console.log(repo, path);
   useEffect(() => {
     if (!rootElm.current || isUtterancesLoaded.current) return;
     const storedIsDarkMode = localStorage.getItem('isDarkMode');
