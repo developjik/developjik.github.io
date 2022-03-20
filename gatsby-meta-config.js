@@ -1,7 +1,7 @@
 module.exports = {
   title: `developjik's Dev Blog`,
   description: `developjik's Dev Blog`,
-  language: `ko`, // `ko`, `en` => currently support versions for Korean and English
+  language: `ko`, // `ko`, `en`
   siteUrl: `https://github.com/developjik`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
