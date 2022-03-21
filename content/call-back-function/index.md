@@ -1,5 +1,5 @@
 ---
-emoji: 🎨
+emoji: ⌨
 title: 콜백 함수
 date: '2022-03-12 00:00:00'
 author: developjik
