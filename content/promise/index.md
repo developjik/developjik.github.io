@@ -502,9 +502,9 @@ job(true)
 
 - 사실 IE에서 사용할 수 없다. 😫
 
-![ciu-promise](./ciu-promise.png)
+![ciu-async-await](https://user-images.githubusercontent.com/67889389/159532061-dd1f354a-8614-4f37-9a52-dad1a3538f83.png)
 
-![ciu-async-await](./ciu-async-await.png)
+![ciu-promise](https://user-images.githubusercontent.com/67889389/159532074-b533a965-9147-490f-b501-1094f0ec7d0f.png)
 
 ```toc
 
