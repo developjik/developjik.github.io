@@ -3,7 +3,7 @@ emoji: 📄
 title: 블로그 설정 & 글쓰기
 date: '2022-01-08 00:00:00'
 author: developjik
-tags: blog
+tags: blog gatsby github
 categories: blog
 ---
 
