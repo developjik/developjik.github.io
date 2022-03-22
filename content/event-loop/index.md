@@ -11,7 +11,7 @@ categories: javascript
 
 ## 이벤트 루프
 
-![event-loop](./event-loop.gif)
+![event-loop](https://user-images.githubusercontent.com/67889389/159528719-5af5e5eb-2534-40f8-be3f-24894d8a0837.gif)
 
 - 힙: 단순히 메모리 영역을 지칭하는 용어. 메모리 할당이 이루어지는 곳으로 변수 등의 정보 저장.
   - (콜스택의 최상단에 있는 실행 컨텍스트가 실행되면서 참조되는 객체들이 저장되어 있는 메모리 공간)
@@ -64,23 +64,23 @@ respond();
 
 1. greet 호출 => respond 호출
 
-   ![gif1.gif](./gif1.gif)
+![gif1](https://user-images.githubusercontent.com/67889389/159529227-9b98da69-cbde-4019-9321-2e9e1daaf5d0.gif)
 
 2. Web API인 setTimout 호출, setTimeout의 cb 전달
 
-   ![gif2.gif](./gif2.gif)
+![gif2](https://user-images.githubusercontent.com/67889389/159528761-7bd5c93c-2d01-41b4-8f9b-67eed3419bd3.gif)
 
 3. cb는 1초뒤에 콜백큐로 전달
 
-   ![gif3.gif](./gif3.gif)
+![gif3](https://user-images.githubusercontent.com/67889389/159528767-b4b8f88e-448b-4a3b-8f2a-ea6799645672.gif)
 
 4. 콜스택 비어있을 때, 콜백큐에 있던 대기 작업 하나씩 전달
 
-   ![gif4.gif](./gif4.gif)
+![gif4](https://user-images.githubusercontent.com/67889389/159528775-13f1c24e-bc9b-4234-8a57-74022ec01492.gif)
 
 5. cb 실행
 
-   ![gif5.gif](./gif5.gif)
+![gif5](https://user-images.githubusercontent.com/67889389/159528782-477393e3-edf3-43db-8e6b-8866b3c7e0ad.gif)
 
 <br/>
 
