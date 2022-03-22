@@ -41,7 +41,7 @@ task('Call an API');
 console.log('Done!');
 ```
 
-![call-stack](./call-stack.png)
+![call-stack](https://user-images.githubusercontent.com/67889389/159529929-8060b08c-7468-4159-bfc3-3feb6ad08102.png)
 
 <br/>
 
