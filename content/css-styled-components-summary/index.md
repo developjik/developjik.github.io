@@ -3,7 +3,7 @@ emoji: 🎨
 title: Styled Components 정리
 date: '2022-02-26 00:00:00'
 author: developjik
-tags: css
+tags: css styled styledcomponents
 categories: css
 ---
 

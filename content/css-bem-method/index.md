@@ -3,7 +3,7 @@ emoji: 🎨
 title: Css BEM 방식
 date: '2022-01-22 00:00:00'
 author: developjik
-tags: css
+tags: css method bem
 categories: css
 ---
 

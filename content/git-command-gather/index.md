@@ -3,7 +3,7 @@ emoji: 👨‍💻
 title: Git 명령어 정리
 date: '2022-02-12 00:00:00'
 author: developjik
-tags: git
+tags: git git명령어 명령어
 categories: git
 ---
 

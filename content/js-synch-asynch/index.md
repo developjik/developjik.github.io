@@ -3,7 +3,7 @@ emoji: ⌨
 title: 동기와 비동기
 date: '2022-03-05 00:00:00'
 author: developjik
-tags: javascript
+tags: javascript synch asynch 동기 비동기
 categories: javascript
 ---
 

@@ -3,7 +3,7 @@ emoji: ⌨
 title: Promise
 date: '2022-03-19 00:00:00'
 author: developjik
-tags: javascript
+tags: javascript promise 프로미스 비동기
 categories: javascript
 ---
 

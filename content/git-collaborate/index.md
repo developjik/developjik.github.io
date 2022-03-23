@@ -3,7 +3,7 @@ emoji: 👨‍💻
 title: Git 협업하기
 date: '2022-01-29 00:00:00'
 author: developjik
-tags: git
+tags: git 협업 git협업
 categories: git
 ---
 

@@ -3,7 +3,7 @@ emoji: 👨‍💻
 title: Git Forking Workflow 협업하기
 date: '2022-02-05 00:00:00'
 author: developjik
-tags: git
+tags: git fork 협업 fork협업 workflow
 categories: git
 ---
 
@@ -21,7 +21,7 @@ categories: git
 
 ### 1. `git fork` 하기
 
-![fork](fork.png)
+![fork](https://user-images.githubusercontent.com/67889389/159698060-a64e4d0b-1e51-4880-9f52-f4c5e515750b.png)
 
 #### `fork란?`
 

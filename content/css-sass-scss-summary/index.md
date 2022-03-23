@@ -3,7 +3,7 @@ emoji: 🎨
 title: Sass/Scss 정리
 date: '2022-02-19 00:00:00'
 author: developjik
-tags: css
+tags: css sass scss
 categories: css
 ---
 
