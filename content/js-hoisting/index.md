@@ -3,7 +3,7 @@ emoji: ⌨
 title: Hoisting
 date: '2022-03-26 00:00:00'
 author: developjik
-tags: javascript closure 클로져
+tags: javascript hoisting 호이스팅
 categories: javascript
 ---
 
@@ -105,7 +105,7 @@ y = 2; // Initialize y
 
 <br/>
 
-# Hoisting 예제
+## Hoisting 예제
 
 ```jsx
 function a(x) {
