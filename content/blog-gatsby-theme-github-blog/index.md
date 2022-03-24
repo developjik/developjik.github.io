@@ -3,7 +3,7 @@ emoji: 📄
 title: Gatsby 테마로 GitHub Blog 만들기
 date: '2022-01-01 00:00:00'
 author: developjik
-tags: blog
+tags: blog gatsby github
 categories: blog
 ---
 
