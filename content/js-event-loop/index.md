@@ -1,7 +1,7 @@
 ---
 emoji: ⌨
 title: EventLoop
-date: '2022-03-23 00:00:00'
+date: '2022-03-12 00:00:00'
 author: developjik
 tags: javascript eventloop 이벤트루프 이벤트 루프
 categories: javascript
