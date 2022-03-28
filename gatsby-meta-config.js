@@ -93,20 +93,34 @@ module.exports = {
           demo: '',
         },
       },
-      // ========================================================
-      // ========================================================
-      // {
-      //   title: '개발 블로그 테마 개발',
-      //   description:
-      //     '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-      //   techStack: ['gatsby', 'react'],
-      //   thumbnailUrl: 'blog.png',
-      //   links: {
-      //     post: '/gatsby-starter-zoomkoding-introduction',
-      //     github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-      //     demo: 'https://www.zoomkoding.com',
-      //   },
-      // },
+      {
+        title: 'React BoilerPlate Frontend',
+        description: '개인프로젝트 개발용으로 로그인 기능 구현 되어있는 React BoilerPlate Frontend',
+        techStack: ['JavaScript', 'React', 'Redux', 'MUI'],
+        thumbnailUrl: 'react-boilerplate.png',
+        links: {
+          github: 'https://github.com/developjik/react-boilerplate-2021',
+        },
+      },
+      {
+        title: 'React BoilerPlate Backend',
+        description: '개인프로젝트 개발용으로 로그인 기능 구현 되어있는 React BoilerPlate Backend',
+        techStack: ['Nest.js', 'TypeScript', 'PostgreSQL', 'Heroku'],
+        thumbnailUrl: 'react-boilerplate.png',
+        links: {
+          github: 'https://github.com/developjik/boilerplate-backend',
+        },
+      },
+      {
+        title: 'Classy : Web RTC&A.I 이용한 실시간 수업 플랫폼',
+        description: 'Web RTC & A.I 이용한 실시간 수업 플랫폼 개발 프로젝트',
+        techStack: ['JavaScript', 'Node.js', 'MongoDB', 'WebRTC', 'A.I', 'AWS S3', 'Heroku'],
+        thumbnailUrl: 'classy.png',
+        links: {
+          github: 'https://github.com/developjik/classy',
+          demo: 'https://developjik-classy.herokuapp.com/',
+        },
+      },
     ],
   },
 };
