@@ -94,6 +94,65 @@ module.exports = {
         },
       },
       {
+        title: 'Table을 이용한 출고관리표 페이지 구현',
+        description: 'wecode-wanted preonboarding 과정 Table을 이용한 출고관리표 페이지 구현',
+        techStack: ['TypeScript', 'React', 'Styled-Components', 'MUI'],
+        thumbnailUrl: 'week3-table.png',
+        links: {
+          github: 'https://github.com/developjik/Week3_Table',
+          demo: 'https://week3-table.herokuapp.com/',
+        },
+      },
+      {
+        title: '애니메이션 효과가 있는 메인 페이지 제작',
+        description: 'wecode-wanted preonboarding 과정 애니메이션 효과가 있는 메인 페이지 제작',
+        techStack: [
+          'TypeScript',
+          'React',
+          'Styled-Components',
+          'Gsap',
+          'Next.JS',
+          'Cypress',
+          'Netlify',
+        ],
+        thumbnailUrl: 'week3-mainpage.png',
+        links: {
+          github: 'https://github.com/developjik/Week3_MainPage',
+          demo: 'https://week3-mainpage.netlify.app/',
+        },
+      },
+      {
+        title: '링크로 공유한 파일들을 보여주는 페이지 구현',
+        description: 'wecode-wanted preonboarding 과정 링크로 공유한 파일들을 보여주는 페이지 구현',
+        techStack: ['TypeScript', 'React', 'Context-API', 'Styled-Components', 'Netlify'],
+        thumbnailUrl: 'week4-transfer.png',
+        links: {
+          github: 'https://github.com/developjik/Week4_Transfer',
+          demo: 'https://week4-transfer.netlify.app/',
+        },
+      },
+      {
+        title: 'Redux를 이용한 메신저 페이지',
+        description: 'wecode-wanted preonboarding 과정 2Redux를 이용한 메신저 페이지',
+        techStack: ['TypeScript', 'React', 'Redux', 'Scss', 'Netlify'],
+        thumbnailUrl: 'week2-messenger.png',
+        links: {
+          github: 'https://github.com/developjik/Week2_Messenger',
+          demo: 'https://17seoul-messenger.netlify.app/',
+        },
+      },
+      {
+        title: '2가지 타입의 환율 계산기 구현',
+        description: 'wecode-wanted preonboarding 과정 2가지 타입의 환율 계산기 구현',
+        techStack: ['JavaScript', 'React', 'Scss', 'AWS EC2'],
+        thumbnailUrl: 'week1-exchange-rate-calculator.png',
+        links: {
+          github: 'https://github.com/developjik/Week1_Exchange_Rate_Calculator',
+          demo: 'http://calc-exchange-rate-17.s3-website.ap-northeast-2.amazonaws.com/',
+        },
+      },
+
+      {
         title: 'React BoilerPlate Frontend',
         description: '개인프로젝트 개발용으로 로그인 기능 구현 되어있는 React BoilerPlate Frontend',
         techStack: ['JavaScript', 'React', 'Redux', 'MUI'],
