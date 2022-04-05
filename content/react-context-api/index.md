@@ -1,7 +1,7 @@
 ---
 emoji: ⌨
 title: Context API
-date: '2022-04-02 00:00:00'
+date: '2022-04-06 00:00:00'
 author: developjik
 tags: react 리액트 context-api
 categories: react
