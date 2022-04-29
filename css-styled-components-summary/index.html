@@ -92,7 +92,7 @@
 <span class="token keyword">const</span> Circle <span class="token operator">=</span> styled<span class="token punctuation">.</span>div<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
   width: 5rem;
   height: 5rem;
-  background: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span> props<span class="token punctuation">.</span>color <span class="token operator">||</span> <span class="token string">'black'</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+  background: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span> props<span class="token punctuation">.</span>color <span class="token operator">||</span> <span class="token string">'black'</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
   border-radius: 50%;
 </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
 
@@ -134,7 +134,7 @@
   size<span class="token operator">:</span> props<span class="token punctuation">.</span>size <span class="token operator">||</span> <span class="token string">"100px"</span><span class="token punctuation">,</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-  width: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props <span class="token operator">=></span> props<span class="token punctuation">.</span>size<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+  width: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token parameter">props</span> <span class="token operator">=></span> props<span class="token punctuation">.</span>size<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
 </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Input</span></span> <span class="token attr-name">placeholder</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token string">"default size input!"</span><span class="token punctuation">}</span></span>  <span class="token punctuation">/></span></span>
@@ -147,9 +147,9 @@
 <span class="token keyword">const</span> Circle <span class="token operator">=</span> styled<span class="token punctuation">.</span>div<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
   width: 5rem;
   height: 5rem;
-  background: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span> props<span class="token punctuation">.</span>color <span class="token operator">||</span> <span class="token string">'black'</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
+  background: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span> props<span class="token punctuation">.</span>color <span class="token operator">||</span> <span class="token string">'black'</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
   border-radius: 50%;
-  </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span>
+  </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span>
     props<span class="token punctuation">.</span>huge <span class="token operator">&amp;&amp;</span>
     css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
       width: 10rem;
@@ -275,7 +275,7 @@
 <span class="token keyword">import</span> <span class="token punctuation">{</span> darken<span class="token punctuation">,</span> lighten <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'polished'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> colorStyles <span class="token operator">=</span> css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-  </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span><span class="token punctuation">{</span> theme<span class="token punctuation">,</span> color <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> theme<span class="token punctuation">,</span> color <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
     <span class="token keyword">const</span> selected <span class="token operator">=</span> theme<span class="token punctuation">.</span>palette<span class="token punctuation">[</span>color<span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token keyword">return</span> css`
       background<span class="token operator">:</span> $<span class="token punctuation">{</span>selected<span class="token punctuation">}</span><span class="token punctuation">;</span>
@@ -285,7 +285,7 @@
       <span class="token operator">&amp;</span><span class="token operator">:</span>active <span class="token punctuation">{</span>
         background<span class="token operator">:</span> $<span class="token punctuation">{</span><span class="token function">darken</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> selected<span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
       <span class="token punctuation">}</span>
-      $<span class="token punctuation">{</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token operator">=></span>
+      $<span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token operator">=></span>
         props<span class="token punctuation">.</span>outline <span class="token operator">&amp;&amp;</span>
         css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
           color: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>selected<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
