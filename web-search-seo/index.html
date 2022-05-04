@@ -64,225 +64,92 @@
         }
       }
     })
-  </script><title data-react-helmet="true">emotion 정리</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="emotion 정리"/><meta data-react-helmet="true" property="og:site_title" content="emotion 정리"/><meta data-react-helmet="true" name="description" content="emotion 기본 개념 emotion.js 이란? CSS-in-JS의 종류 중 하나로 JavaScript 안에서 스타일을 작성할 수 있게 해준다. emotion.js는 주로 Framework Agnostic(프레임워크를 사용하지 않는 것)과 React 두 가지 방식으로 사용된다. emotion css props emotion composition emotion styled-components emotion object style emotion child selector emotion global styles emotion theme provider emotion reset Next.js에 emotion 설치하기 emotion 필요 패키지 설치하기 .babelrc 설정하기 emotion 기본 개념 emotion.js 이란? emotion css props emotion composition emotion styled-components emotion object style emot…"/><meta data-react-helmet="true" property="og:description" content="emotion 기본 개념 emotion.js 이란? CSS-in-JS의 종류 중 하나로 JavaScript 안에서 스타일을 작성할 수 있게 해준다. emotion.js는 주로 Framework Agnostic(프레임워크를 사용하지 않는 것)과 React 두 가지 방식으로 사용된다. emotion css props emotion composition emotion styled-components emotion object style emotion child selector emotion global styles emotion theme provider emotion reset Next.js에 emotion 설치하기 emotion 필요 패키지 설치하기 .babelrc 설정하기 emotion 기본 개념 emotion.js 이란? emotion css props emotion composition emotion styled-components emotion object style emot…"/><meta data-react-helmet="true" property="og:author" content="정인권"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-5c921e8c5751e5042c49.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-aeb0eee2521c2a210b50.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-271793ff2ef9a8765d21.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-2e56501020908eff0cff.js"/><link as="fetch" rel="preload" href="/page-data/css-emotion/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">developjik&#x27;s Dev Blog</a></div><div class="trailing-section"><a class="link" href="/posts">posts</a><a class="link" href="/about">about</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🎨</div><div class="info"><div class="categories"><a class="category" href="/posts/css">css</a></div></div><h1 class="title">emotion 정리</h1><div class="info"><div class="author">posted by <strong>developjik</strong>,</div> <!-- -->April 27, 2022</div></header><div class="post-content"><div class="markdown"><h2 id="emotion-기본-개념" style="position:relative;"><a href="#emotion-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90" aria-label="emotion 기본 개념 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion 기본 개념</h2>
-<h3 id="emotionjs-이란" style="position:relative;"><a href="#emotionjs-%EC%9D%B4%EB%9E%80" aria-label="emotionjs 이란 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion.js 이란?</h3>
+  </script><title data-react-helmet="true">검색과 SEO</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="검색과 SEO"/><meta data-react-helmet="true" property="og:site_title" content="검색과 SEO"/><meta data-react-helmet="true" name="description" content="검색 크롤러 기본 방식 웹페이지를 방문하여 모든 링크를 찾은다음, 그 링크를 목록화 한다.
+그 다음 이 링크들을 이전에 방문한 적이 있는지 확인하고, 방문해본 적이 없으면 그 링크를 타고 웹페이지를 방문한다.
+그런 다음 그 페이지에서 앞에서 진행한 과정을 반복한다. 현재의 검색 알고리즘 하나가 아닌 여러 개의 알고리즘으로 구성되어있다. 모든 웹페이지의 수 많은 검색어, 모든 링크를 다 합친 것이 페이지랭크가 된다. 실제로 링크를 누가 얼마나 클릭하는지도 중요하다 크롤러가 웹페이지를 찾으면 Google 시스템에서는 브라우저와 마찬가지로 해당 페이지의 콘텐츠를 렌더링한다. 이때 키워드 및 웹사이트 최신 정보에 이르는 주요 신호를 기록하며 검색 색인에서 모든 주요 신호를 추적한다. 키워드 검색과 웹페이지에 담긴 텍스트 비교, 반복성, 서체크기, 대문자, 키워드의 위치 등 여러가지 전통적인 정보검색기술과 결합한다.
+여기서 전통적인 판단 요소를 시그널(signal) 이라고하고 검색품질에 대…"/><meta data-react-helmet="true" property="og:description" content="검색 크롤러 기본 방식 웹페이지를 방문하여 모든 링크를 찾은다음, 그 링크를 목록화 한다.
+그 다음 이 링크들을 이전에 방문한 적이 있는지 확인하고, 방문해본 적이 없으면 그 링크를 타고 웹페이지를 방문한다.
+그런 다음 그 페이지에서 앞에서 진행한 과정을 반복한다. 현재의 검색 알고리즘 하나가 아닌 여러 개의 알고리즘으로 구성되어있다. 모든 웹페이지의 수 많은 검색어, 모든 링크를 다 합친 것이 페이지랭크가 된다. 실제로 링크를 누가 얼마나 클릭하는지도 중요하다 크롤러가 웹페이지를 찾으면 Google 시스템에서는 브라우저와 마찬가지로 해당 페이지의 콘텐츠를 렌더링한다. 이때 키워드 및 웹사이트 최신 정보에 이르는 주요 신호를 기록하며 검색 색인에서 모든 주요 신호를 추적한다. 키워드 검색과 웹페이지에 담긴 텍스트 비교, 반복성, 서체크기, 대문자, 키워드의 위치 등 여러가지 전통적인 정보검색기술과 결합한다.
+여기서 전통적인 판단 요소를 시그널(signal) 이라고하고 검색품질에 대…"/><meta data-react-helmet="true" property="og:author" content="정인권"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-5c921e8c5751e5042c49.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-aeb0eee2521c2a210b50.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-271793ff2ef9a8765d21.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-2e56501020908eff0cff.js"/><link as="fetch" rel="preload" href="/page-data/web-search-seo/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">developjik&#x27;s Dev Blog</a></div><div class="trailing-section"><a class="link" href="/posts">posts</a><a class="link" href="/about">about</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">⌨</div><div class="info"><div class="categories"><a class="category" href="/posts/web">web</a></div></div><h1 class="title">검색과 SEO</h1><div class="info"><div class="author">posted by <strong>developjik</strong>,</div> <!-- -->May 04, 2022</div></header><div class="post-content"><div class="markdown"><h2 id="검색-크롤러-기본-방식" style="position:relative;"><a href="#%EA%B2%80%EC%83%89-%ED%81%AC%EB%A1%A4%EB%9F%AC-%EA%B8%B0%EB%B3%B8-%EB%B0%A9%EC%8B%9D" aria-label="검색 크롤러 기본 방식 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>검색 크롤러 기본 방식</h2>
+<p>웹페이지를 방문하여 모든 링크를 찾은다음, 그 링크를 목록화 한다.
+그 다음 이 링크들을 이전에 방문한 적이 있는지 확인하고, 방문해본 적이 없으면 그 링크를 타고 웹페이지를 방문한다.
+그런 다음 그 페이지에서 앞에서 진행한 과정을 반복한다.</p>
+<br/>
+<h2 id="현재의-검색-알고리즘" style="position:relative;"><a href="#%ED%98%84%EC%9E%AC%EC%9D%98-%EA%B2%80%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" aria-label="현재의 검색 알고리즘 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>현재의 검색 알고리즘</h2>
 <ul>
-<li>CSS-in-JS의 종류 중 하나로 JavaScript 안에서 스타일을 작성할 수 있게 해준다.</li>
-<li>emotion.js는 주로 Framework Agnostic(프레임워크를 사용하지 않는 것)과 React 두 가지 방식으로 사용된다.</li>
+<li>하나가 아닌 여러 개의 알고리즘으로 구성되어있다.</li>
+<li>모든 웹페이지의 수 많은 검색어, 모든 링크를 다 합친 것이 페이지랭크가 된다.</li>
+<li>실제로 링크를 누가 얼마나 클릭하는지도 중요하다</li>
+<li>크롤러가 웹페이지를 찾으면 Google 시스템에서는 브라우저와 마찬가지로 해당 페이지의 콘텐츠를 렌더링한다. 이때 키워드 및 웹사이트 최신 정보에 이르는 주요 신호를 기록하며 검색 색인에서 모든 주요 신호를 추적한다.</li>
+<li>키워드 검색과 웹페이지에 담긴 텍스트 비교, 반복성, 서체크기, 대문자, 키워드의 위치 등 여러가지 전통적인 정보검색기술과 결합한다.
+여기서 전통적인 판단 요소를 시그널(signal) 이라고하고 검색품질에 대단히 중요한 역할을 한다.</li>
 </ul>
-<h3 id="emotion-css-props" style="position:relative;"><a href="#emotion-css-props" aria-label="emotion css props permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion css props</h3>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> css <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@emotion/react'</span>
-
-<span class="token keyword">const</span> color <span class="token operator">=</span> <span class="token string">'white'</span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>div
-    css<span class="token operator">=</span><span class="token punctuation">{</span>css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-      padding: 32px;
-      background-color: hotpink;
-      font-size: 24px;
-      border-radius: 4px;
-      &amp;:hover {
-        color: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>color<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">;
-      }
-    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span>
-  <span class="token operator">></span>
-    Hover to change color<span class="token punctuation">.</span>
-  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-<span class="token punctuation">)</span>
-</code></pre></div>
-<h3 id="emotion-composition" style="position:relative;"><a href="#emotion-composition" aria-label="emotion composition permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion composition</h3>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> css <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@emotion/react'</span>
-
-<span class="token keyword">const</span> danger <span class="token operator">=</span> css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-  color: red;
-</span><span class="token template-punctuation string">`</span></span>
-
-<span class="token keyword">const</span> base <span class="token operator">=</span> css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-  background-color: darkgreen;
-  color: turquoise;
-</span><span class="token template-punctuation string">`</span></span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>div<span class="token operator">></span>
-    <span class="token operator">&lt;</span>div css<span class="token operator">=</span><span class="token punctuation">{</span>base<span class="token punctuation">}</span><span class="token operator">></span>This will be turquoise<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-    <span class="token operator">&lt;</span>div css<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span>danger<span class="token punctuation">,</span> base<span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token operator">></span>
-      This will be also be turquoise since the base styles
-      overwrite the danger styles<span class="token punctuation">.</span>
-    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-    <span class="token operator">&lt;</span>div css<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span>base<span class="token punctuation">,</span> danger<span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token operator">></span>This will be red<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-<span class="token punctuation">)</span></code></pre></div>
-<h3 id="emotion-styled-components" style="position:relative;"><a href="#emotion-styled-components" aria-label="emotion styled components permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion styled-components</h3>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> styled <span class="token keyword">from</span> <span class="token string">'@emotion/styled'</span>
-
-<span class="token keyword">const</span> Button <span class="token operator">=</span> styled<span class="token punctuation">.</span>button<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-  padding: 32px;
-  background-color: hotpink;
-  font-size: 24px;
-  border-radius: 4px;
-  color: black;
-  font-weight: bold;
-  margin-bottom: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token parameter">props</span> <span class="token operator">=></span> props<span class="token punctuation">.</span>value <span class="token operator">?</span> <span class="token string">'4px'</span> <span class="token operator">:</span> <span class="token string">'2px'</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
-  &amp;:hover {
-    color: white;
-  }
-</span><span class="token template-punctuation string">`</span></span>
-
-<span class="token function">render</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>Button<span class="token operator">></span>This my button component<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">></span><span class="token punctuation">)</span>
-</code></pre></div>
-<h3 id="emotion-object-style" style="position:relative;"><a href="#emotion-object-style" aria-label="emotion object style permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion object style</h3>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> jsx <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@emotion/react'</span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>div
-    css<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>
-      color<span class="token operator">:</span> <span class="token string">'darkorchid'</span><span class="token punctuation">,</span>
-      backgroundColor<span class="token operator">:</span> <span class="token string">'lightgray'</span>
-    <span class="token punctuation">}</span><span class="token punctuation">}</span>
-  <span class="token operator">></span>
-    This is darkorchid<span class="token punctuation">.</span>
-  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-<span class="token punctuation">)</span>
-
-<span class="token keyword">import</span> styled <span class="token keyword">from</span> <span class="token string">'@emotion/styled'</span>
-
-<span class="token keyword">const</span> Button <span class="token operator">=</span> styled<span class="token punctuation">.</span><span class="token function">button</span><span class="token punctuation">(</span>
-  <span class="token punctuation">{</span>
-    color<span class="token operator">:</span> <span class="token string">'darkorchid'</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token parameter">props</span> <span class="token operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
-    fontSize<span class="token operator">:</span> props<span class="token punctuation">.</span>fontSize
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>Button fontSize<span class="token operator">=</span><span class="token punctuation">{</span><span class="token number">16</span><span class="token punctuation">}</span><span class="token operator">></span>
-    This is a darkorchid button<span class="token punctuation">.</span>
-  <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">></span>
-<span class="token punctuation">)</span></code></pre></div>
-<h3 id="emotion-child-selector" style="position:relative;"><a href="#emotion-child-selector" aria-label="emotion child selector permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion child selector</h3>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> jsx <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@emotion/react'</span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>div
-    css<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>
-      color<span class="token operator">:</span> <span class="token string">'darkorchid'</span><span class="token punctuation">,</span>
-      <span class="token string">'&amp; .name'</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-        color<span class="token operator">:</span> <span class="token string">'orange'</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token punctuation">}</span>
-  <span class="token operator">></span>
-    This is darkorchid<span class="token punctuation">.</span>
-    <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"name"</span><span class="token operator">></span>This is orange<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-<span class="token punctuation">)</span></code></pre></div>
-<h3 id="emotion-global-styles" style="position:relative;"><a href="#emotion-global-styles" aria-label="emotion global styles permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion global styles</h3>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> Global<span class="token punctuation">,</span> css <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@emotion/react'</span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>div<span class="token operator">></span>
-    <span class="token operator">&lt;</span>Global
-      styles<span class="token operator">=</span><span class="token punctuation">{</span>css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-        .some-class {
-          color: hotpink !important;
-        }
-      </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span>
-    <span class="token operator">/</span><span class="token operator">></span>
-    <span class="token operator">&lt;</span>Global
-      styles<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>
-        <span class="token string">'.some-class'</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-          fontSize<span class="token operator">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
-          textAlign<span class="token operator">:</span> <span class="token string">'center'</span>
-        <span class="token punctuation">}</span>
-      <span class="token punctuation">}</span><span class="token punctuation">}</span>
-    <span class="token operator">/</span><span class="token operator">></span>
-    <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">"some-class"</span><span class="token operator">></span>This is hotpink now<span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-<span class="token punctuation">)</span></code></pre></div>
-<h3 id="emotion-theme-provider" style="position:relative;"><a href="#emotion-theme-provider" aria-label="emotion theme provider permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion theme provider</h3>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> jsx<span class="token punctuation">,</span> ThemeProvider<span class="token punctuation">,</span> useTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@emotion/react'</span>
-
-<span class="token keyword">const</span> theme <span class="token operator">=</span> <span class="token punctuation">{</span>
-  colors<span class="token operator">:</span> <span class="token punctuation">{</span>
-    primary<span class="token operator">:</span> <span class="token string">'hotpink'</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">function</span> <span class="token function">SomeText</span> <span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  <span class="token keyword">const</span> theme <span class="token operator">=</span> <span class="token function">useTheme</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-  <span class="token keyword">return</span> <span class="token punctuation">(</span>
-    <span class="token operator">&lt;</span>div
-      css<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> color<span class="token operator">:</span> theme<span class="token punctuation">.</span>colors<span class="token punctuation">.</span>primary <span class="token punctuation">}</span><span class="token punctuation">}</span>
-      <span class="token punctuation">{</span><span class="token operator">...</span>props<span class="token punctuation">}</span>
-    <span class="token operator">/</span><span class="token operator">></span>
-  <span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>ThemeProvider theme<span class="token operator">=</span><span class="token punctuation">{</span>theme<span class="token punctuation">}</span><span class="token operator">></span>
-    <span class="token operator">&lt;</span>SomeText<span class="token operator">></span>some text<span class="token operator">&lt;</span><span class="token operator">/</span>SomeText<span class="token operator">></span>
-  <span class="token operator">&lt;</span><span class="token operator">/</span>ThemeProvider<span class="token operator">></span>
-<span class="token punctuation">)</span></code></pre></div>
-<h3 id="emotion-reset" style="position:relative;"><a href="#emotion-reset" aria-label="emotion reset permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>emotion reset</h3>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">npm</span> i emotion-reset</code></pre></div>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> emotionReset <span class="token keyword">from</span> <span class="token string">'emotion-reset'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> Global<span class="token punctuation">,</span> css <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@emotion/react'</span><span class="token punctuation">;</span>
-
-<span class="token function">render</span><span class="token punctuation">(</span>
-  <span class="token operator">&lt;</span>Global styles<span class="token operator">=</span><span class="token punctuation">{</span>css<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
-    </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>emotionReset<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
-
-    *, *::after, *::before {
-      box-sizing: border-box;
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      font-smoothing: antialiased;
-    }
-  </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">></span>
-<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
-<h2 id="nextjs에-emotion-설치하기" style="position:relative;"><a href="#nextjs%EC%97%90-emotion-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0" aria-label="nextjs에 emotion 설치하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Next.js에 emotion 설치하기</h2>
+<br/>
+<h2 id="seosearch-engine-optimization-검색-최적화를-위해서-해야-될-것" style="position:relative;"><a href="#seosearch-engine-optimization-%EA%B2%80%EC%83%89-%EC%B5%9C%EC%A0%81%ED%99%94%EB%A5%BC-%EC%9C%84%ED%95%B4%EC%84%9C-%ED%95%B4%EC%95%BC-%EB%90%A0-%EA%B2%83" aria-label="seosearch engine optimization 검색 최적화를 위해서 해야 될 것 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SEO(Search Engine Optimization, 검색 최적화)를 위해서 해야 될 것</h2>
+<blockquote>
+<p>구글이 말하길 검색엔진 최적화의 효과를 보려면 시간이 다소 걸립니다.
+변경을 시작해서 성과가 나타날 때까지 보통 4개월에서 1년 정도 소요됩니다.</p>
+</blockquote>
+<h3 id="1-잘-노출-되게-한다" style="position:relative;"><a href="#1-%EC%9E%98-%EB%85%B8%EC%B6%9C-%EB%90%98%EA%B2%8C-%ED%95%9C%EB%8B%A4" aria-label="1 잘 노출 되게 한다 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. 잘 노출 되게 한다.</h3>
+<p><img src="https://user-images.githubusercontent.com/67889389/166693203-55fd783d-0792-4ac5-9786-2f14a215558f.png" alt="good-search-result"></p>
+<br/>
 <ol>
-<li>emotion 필요 패키지 설치하기</li>
+<li>
+<p>우리 사이트 주소가 여기저기서 링크 되고 있어야 한다.</p>
+<ol>
+<li>youtube도 올리고 페이스북도 올리고 인스타도 올리고 블로그도 쓰고 서로 링크하고(하지만 너무 recursive하면 광고로 판단하고 blocking한다)</li>
+<li>각 사이트(유투브, 페이스북 등)의 제목과 내용의 단어 선택을 잘 해야한다!</li>
 </ol>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">yarn</span> <span class="token function">add</span> @emotion/react @emotion/styled 
-
-<span class="token function">yarn</span> <span class="token function">add</span> --dev @emotion/babel-plugin</code></pre></div>
-<ol start="2">
-<li>.babelrc 설정하기</li>
+</li>
+<li>
+<p><code class="language-text">head</code>에 페이지 정보를 잘 작성한다.</p>
+<p><img src="https://user-images.githubusercontent.com/67889389/166693464-c921678b-91b6-4e6f-9902-029aae7da795.png" alt="head"></p>
+</li>
+<li>
+<p><code class="language-text">robots.txt</code> 크롤러와 사이트의 약속
+<img src="https://user-images.githubusercontent.com/67889389/166693817-1819c78d-b41f-4c38-9b82-1af372e6ca31.png" alt="robots txt"></p>
+</li>
+<li>
+<p><code class="language-text">sitemap.xml</code>
+<img src="https://user-images.githubusercontent.com/67889389/166693829-b6f57535-7ebf-449e-9a45-2ea5a1790deb.png" alt="sitemap xml"></p>
+</li>
 </ol>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
-    <span class="token property">"presets"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-      <span class="token punctuation">[</span>
-        <span class="token string">"next/babel"</span><span class="token punctuation">,</span>
-        <span class="token punctuation">{</span>
-          <span class="token property">"preset-react"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-            <span class="token property">"runtime"</span><span class="token operator">:</span> <span class="token string">"automatic"</span><span class="token punctuation">,</span>
-            <span class="token property">"importSource"</span><span class="token operator">:</span> <span class="token string">"@emotion/react"</span>
-          <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-      <span class="token punctuation">]</span>
-    <span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token property">"plugins"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"@emotion/babel-plugin"</span><span class="token punctuation">]</span>
-  <span class="token punctuation">}</span></code></pre></div>
+<h3 id="2-사이트를-컴퓨터가-이해할-수-있도록-만든다" style="position:relative;"><a href="#2-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B0%80-%EC%9D%B4%ED%95%B4%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8F%84%EB%A1%9D-%EB%A7%8C%EB%93%A0%EB%8B%A4" aria-label="2 사이트를 컴퓨터가 이해할 수 있도록 만든다 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 사이트를 컴퓨터가 이해할 수 있도록 만든다.</h3>
+<p><img src="https://user-images.githubusercontent.com/67889389/166693798-1fb5f088-559d-4f19-b0bc-572014517d46.png" alt="good-search-result2"></p>
+<br/>
+<p><img src="https://user-images.githubusercontent.com/67889389/166693826-9df9e015-4360-40da-ade7-b06f60371d23.png" alt="semantic"></p>
+<ol>
+<li>
+<p>HTML5 Semantic Elements</p>
+<ul>
+<li>페이지 이동 시 검색되길 바란다면 무조건 a 태그를 쓰기</li>
+<li><hn> 태그 잘 활용하기</li>
+<li>img 태그 alt 설명 잘 달기</li>
+<li>img 태그 사진 이름부터 잘 짓기</li>
+<li>img 태그 위에 figure 추가</li>
+<li>header, main, footer, nav, section, aside 등등 태그 잘 활용하기</li>
+<li>caption 태그 활용해서 table 설명쓰기</li>
+</ul>
+</li>
+</ol>
+<br/>
+<blockquote>
+<p>참조 : <a href="https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=ko&#x26;visit_id=637664932657806093-2379697166&#x26;rd=1">SEO 가이드</a></p>
+</blockquote>
 <div class="table-of-contents">
 <ul>
 <li>
-<p><a href="#emotion-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90">emotion 기본 개념</a></p>
-<ul>
-<li><a href="#emotionjs-%EC%9D%B4%EB%9E%80">emotion.js 이란?</a></li>
-<li><a href="#emotion-css-props">emotion css props</a></li>
-<li><a href="#emotion-composition">emotion composition</a></li>
-<li><a href="#emotion-styled-components">emotion styled-components</a></li>
-<li><a href="#emotion-object-style">emotion object style</a></li>
-<li><a href="#emotion-child-selector">emotion child selector</a></li>
-<li><a href="#emotion-global-styles">emotion global styles</a></li>
-<li><a href="#emotion-theme-provider">emotion theme provider</a></li>
-<li><a href="#emotion-reset">emotion reset</a></li>
-</ul>
+<p><a href="#%EA%B2%80%EC%83%89-%ED%81%AC%EB%A1%A4%EB%9F%AC-%EA%B8%B0%EB%B3%B8-%EB%B0%A9%EC%8B%9D">검색 크롤러 기본 방식</a></p>
 </li>
 <li>
-<p><a href="#nextjs%EC%97%90-emotion-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0">Next.js에 emotion 설치하기</a></p>
+<p><a href="#%ED%98%84%EC%9E%AC%EC%9D%98-%EA%B2%80%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98">현재의 검색 알고리즘</a></p>
+</li>
+<li>
+<p><a href="#seosearch-engine-optimization-%EA%B2%80%EC%83%89-%EC%B5%9C%EC%A0%81%ED%99%94%EB%A5%BC-%EC%9C%84%ED%95%B4%EC%84%9C-%ED%95%B4%EC%95%BC-%EB%90%A0-%EA%B2%83">SEO(Search Engine Optimization, 검색 최적화)를 위해서 해야 될 것</a></p>
+<ul>
+<li><a href="#1-%EC%9E%98-%EB%85%B8%EC%B6%9C-%EB%90%98%EA%B2%8C-%ED%95%9C%EB%8B%A4">1. 잘 노출 되게 한다.</a></li>
+<li><a href="#2-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B0%80-%EC%9D%B4%ED%95%B4%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8F%84%EB%A1%9D-%EB%A7%8C%EB%93%A0%EB%8B%A4">2. 사이트를 컴퓨터가 이해할 수 있도록 만든다.</a></li>
+</ul>
 </li>
 </ul>
-</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/nextjs-start/"><div class="direction">이전 글</div><div class="title">Next.js 시작하기</div></a></div><div class="post-navigator-card-wrapper"><a class="post-card next" href="/js-mobx/"><div class="direction">다음 글</div><div class="title">Mobx 시작하기</div></a></div></div><div class="utterances"></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/developjik">정인권</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/css-emotion/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-aeb0eee2521c2a210b50.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-f23fa7c880193a618d39.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-c63649266f0efc0f8a9d.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-2e56501020908eff0cff.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-2e56501020908eff0cff.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-271793ff2ef9a8765d21.js" async=""></script><script src="/app-aeb0eee2521c2a210b50.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-5c921e8c5751e5042c49.js" async=""></script></body></html>
+</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/js-mobx/"><div class="direction">이전 글</div><div class="title">Mobx 시작하기</div></a></div><div class="post-navigator-card-wrapper"></div></div><div class="utterances"></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/developjik">정인권</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/web-search-seo/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-aeb0eee2521c2a210b50.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-f23fa7c880193a618d39.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-c63649266f0efc0f8a9d.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-2e56501020908eff0cff.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-2e56501020908eff0cff.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-271793ff2ef9a8765d21.js" async=""></script><script src="/app-aeb0eee2521c2a210b50.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-5c921e8c5751e5042c49.js" async=""></script></body></html>
